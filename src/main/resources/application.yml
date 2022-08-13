@@ -6,6 +6,10 @@ spring:
     console:
       enabled: true
       path: /h2-console
+  // swagger 충돌 해결
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 
   profiles:
     active:
