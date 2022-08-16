@@ -18,13 +18,27 @@ spring:
     rest:
       base-path: /
 
+# maria db
   datasource:
-    url: jdbc:h2:mem:kikumsaddd
+    url: jdbc:h2:mem:kiku
     driver-class-name: org.h2.Driver
     username: sa
     password:
-
   jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
+    database: mysql
+    generate-ddl: true
     hibernate:
       ddl-auto: create-drop
+    show-sql: true
+
+# h2db
+#  datasource:
+#    url: jdbc:h2:mem:kikumsaddd
+#    driver-class-name: org.h2.Driver
+#    username: sa
+#    password:
+#
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: create-drop
