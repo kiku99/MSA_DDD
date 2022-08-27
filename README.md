@@ -6,3 +6,5 @@
 
 
 ## 설계 기법 - Domain-Driven Design
+
+![shopping](https://user-images.githubusercontent.com/66311161/187020797-7bd6e5eb-7670-4671-a042-7f2533b1d64f.jpg)
